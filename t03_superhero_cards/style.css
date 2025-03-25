@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.card {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+}
+
+.card img {
+    height: 182px;
+    position: relative;
+}
+.captain-america img{
+    bottom: 47px;
+}
+.black-widow img{
+    bottom: 47px;
+}
+.iron-man img{
+    bottom: 47px;
+}
+
+.info {
+    bottom: 192px;
+    right: 10px;
+    margin: 0;
+    position: relative;
+    text-align: right;
+    color: #fff;
+}
+
+h3 {
+    font-size: 12px;
+    margin-bottom: -10px;
+}
+
+p {
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.captain-america {
+    background: linear-gradient(to bottom, #4568DC, #B06AB3);
+}
+
+.iron-man {
+    background: linear-gradient(to bottom, #e52d27, #b31217);
+}
+
+.black-widow {
+    background: linear-gradient(to right, #000, #61045f);
+}
+
+.spider-man {
+    background: linear-gradient(to bottom, #e52d27, #000);
+}

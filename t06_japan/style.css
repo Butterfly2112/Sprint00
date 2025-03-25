@@ -1,0 +1,22 @@
+.japan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border: 2px solid #cccccc;
+    background: white;
+    position: relative;
+}
+
+.japan::before {
+    content: "";
+    width: 120px;
+    height: 120px;
+    background: #bc002e;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
